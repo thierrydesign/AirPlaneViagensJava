@@ -1,0 +1,25 @@
+CREATE DATABASE Air_Plane;
+use Air_Plane;
+
+CREATE TABLE Passageiro (
+idPassageiro INT AUTO_INCREMENT PRIMARY KEY,
+cpf VARCHAR(50) UNIQUE NOT NULL,
+nome VARCHAR(150) NOT NULL,
+rg VARCHAR(50) UNIQUE NOT NULL,
+telefone VARCHAR(15)
+);
+
+CREATE TABLE Viagem (
+idViagem INT AUTO_INCREMENT PRIMARY KEY,
+dataViagem DATE,
+horaPartida DATE,
+origem VARCHAR(50),
+destino VARCHAR(50)
+);
+
+CREATE TABLE Usuario (
+idUsuario INT AUTO_INCREMENT PRIMARY KEY,
+login VARCHAR(50),
+nome VARCHAR(50),
+senha VARCHAR(50)
+);
