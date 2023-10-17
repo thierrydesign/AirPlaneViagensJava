@@ -13,7 +13,7 @@ public class ConnectionFactory {
 
 	private static final String user = "root";
 
-	private static final String password = "Tli17*)(${}";
+	private static final String password = "suasenha";
 
 	public static Connection createConnection() {
 		try {
