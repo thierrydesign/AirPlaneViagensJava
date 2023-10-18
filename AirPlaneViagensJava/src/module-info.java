@@ -4,6 +4,6 @@
 /**
  * 
  */
-module AirPlaneViagens {
+module Petshop {
 	requires java.sql;
 }
