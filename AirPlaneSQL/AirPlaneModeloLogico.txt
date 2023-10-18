@@ -11,8 +11,8 @@ telefone VARCHAR(15)
 
 CREATE TABLE Viagem (
 idViagem INT AUTO_INCREMENT PRIMARY KEY,
-dataViagem DATE,
-horaPartida DATE,
+dataViagem DATETIME,
+horaPartida DATETIME,
 origem VARCHAR(50),
 destino VARCHAR(50)
 );
